@@ -1,0 +1,111 @@
+body{
+    background-image: url(../img/Bold\ Bookshelf.jpg);
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(218, 218, 193);
+    padding: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: 850px;
+    overflow-y: auto;
+}
+.cadastro a{
+    display: block;
+    background-color:grey;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width:max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cadastro{
+    overflow: hidden;
+    background-color:tan;
+    position: fixed;
+    top: 0%;
+    width:100%;
+}
+.botao:hover{
+    background-color:rgb(81, 175, 81);
+}
+
+.botao{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(189, 189, 189);
+    padding: 5px;
+    border-radius: 10px;
+    border-style:outset;
+    border-color: rgb(94, 94, 94);
+    text-decoration: none;
+    color: black;
+}
+.tabela{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    width: 100%;
+    font-size: 1.0vw;
+    
+}
+
+
+tr:nth-child(even){ 
+    background-color:tan;
+}
+h1{
+    
+    /* width: 50%;  */
+    margin-bottom: 0%;
+    padding: 10px;
+    text-align: center;
+    background-color:tan;
+    margin-left: auto;
+   margin-right: auto;
+   
+    
+    
+    
+}
+img{
+    height: 25px;
+    height: 25px;
+}
+.rodape{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 100%;
+    background-color: tan;
+   margin-top: 5%;
+    bottom: 0%;
+    
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    
+}.teto{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    width:max-content;
+    font-size: 0.8vw;
+
+}
